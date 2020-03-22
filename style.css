@@ -1,0 +1,49 @@
+body{
+    width: 100%;
+    height: 100%;
+    background-image: url("5dda86c0bf8b75cea7f6a5c671fe6b16.jpg");
+    max-height: 1080px;
+    overflow: hidden;
+}
+
+.keys{
+    display: flex;
+    min-height: 60px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20%;
+}
+
+.key{
+    text-align: center;
+    text-anchor: middle;
+    width: 70px;
+    height: 60px;
+    margin-right: 5px;
+    border:5px solid black;
+    border-radius: 5px;
+    background: rgba(0, 0, 0, 0.7);
+    box-shadow: 0px 0px 15px black;
+    padding: 20px;
+    transition: all .07s;
+}
+
+kbd{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    text-shadow: 0px 0px 5px black;
+    font-size: 40px;
+}
+
+.sign{
+    
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: orange;
+    text-transform: uppercase;
+}
+
+.playing{
+    transform: scale(1.1);
+    border-color: orange;
+    box-shadow: 0px 0px 10px orange;
+}
